@@ -611,7 +611,7 @@
         "FIELD_HEADER_RECORDING_EXCLUDE_OUTPUT" : "그래픽/스트림 제외:",
         "FIELD_HEADER_RECORDING_INCLUDE_KEYS"   : "키 이벤트 포함:",
         "FIELD_HEADER_RECORDING_NAME" : "레코딩 이름:",
-        "FIELD_HEADER_RECORDING_PATH" : "레코딩 경로:",
+        "FIELD_HEADER_RECORDING_PATH" : "레코드 경로:",
         "FIELD_HEADER_SERVER_ALIVE_INTERVAL" : "서버 keepalive 간격:",
         "FIELD_HEADER_SFTP_DISABLE_DOWNLOAD" : "파일 다운로드 비활성화:",
         "FIELD_HEADER_SFTP_ROOT_DIRECTORY"   : "루트 디렉토리 파일 브라우저:",
