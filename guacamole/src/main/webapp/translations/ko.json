@@ -590,7 +590,7 @@
         "FIELD_HEADER_BACKSPACE"    : "<Backspace> 키가 보내는 문자:",
         "FIELD_HEADER_COLOR_SCHEME" : "색상 구성표:",
         "FIELD_HEADER_COMMAND"      : "명령 실행:",
-        "FIELD_HEADER_CREATE_RECORDING_PATH" : "레코딩 경로 자동 생성:",
+        "FIELD_HEADER_CREATE_RECORDING_PATH" : "레코드 경로 자동 생성:",
         "FIELD_HEADER_CREATE_TYPESCRIPT_PATH" : "Typescript 경로 자동 생성:",
         "FIELD_HEADER_DISABLE_COPY"  : "터미널에서 복사 비활성화:",
         "FIELD_HEADER_DISABLE_PASTE" : "클라이언트에서 붙여넣기 비활성화:",
