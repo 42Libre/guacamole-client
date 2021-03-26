@@ -702,7 +702,7 @@
         "FIELD_HEADER_TERMINAL_TYPE"   : "터미널 타입:",
         "FIELD_HEADER_TYPESCRIPT_NAME" : "Typescript 이름:",
         "FIELD_HEADER_TYPESCRIPT_PATH" : "Typescript 경로:",
-        "FIELD_HEADER_WOL_BROADCAST_ADDR" : "Wol 패킷의 브로드캐스트 주소:",
+        "FIELD_HEADER_WOL_BROADCAST_ADDR" : "WoL 패킷의 브로드캐스트 주소:",
         "FIELD_HEADER_WOL_MAC_ADDR"       : "원격 호스트의 MAC 주소:",
         "FIELD_HEADER_WOL_SEND_PACKET"    : "WoL 패킷 전송:",
         "FIELD_HEADER_WOL_WAIT_TIME"      : "호스트 부트 대기 시간:",
