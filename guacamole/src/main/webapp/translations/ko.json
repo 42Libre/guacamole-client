@@ -676,7 +676,7 @@
 
     "PROTOCOL_TELNET" : {
 
-        "FIELD_HEADER_BACKSPACE"      : "<Backspace> 키가 보내는 문자:",
+        "FIELD_HEADER_BACKSPACE"      : "Backspace 키 전송:",
         "FIELD_HEADER_COLOR_SCHEME"   : "색상 구성표:",
         "FIELD_HEADER_CREATE_RECORDING_PATH" : "레코드 경로 자동 생성:",
         "FIELD_HEADER_CREATE_TYPESCRIPT_PATH" : "Typescript 경로 자동 생성:",
