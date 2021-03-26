@@ -715,7 +715,7 @@
         "FIELD_OPTION_COLOR_SCHEME_EMPTY"       : "",
         "FIELD_OPTION_COLOR_SCHEME_GRAY_BLACK"  : "검은색 바탕에 회색",
         "FIELD_OPTION_COLOR_SCHEME_GREEN_BLACK" : "검은색 바탕에 녹색",
-        "FIELD_OPTION_COLOR_SCHEME_WHITE_BLACK" : "검정 바탕에 흰색",
+        "FIELD_OPTION_COLOR_SCHEME_WHITE_BLACK" : "검은색 바탕에 흰색",
 
         "FIELD_OPTION_FONT_SIZE_8"     : "8",
         "FIELD_OPTION_FONT_SIZE_9"     : "9",
