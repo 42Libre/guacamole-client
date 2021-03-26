@@ -711,7 +711,7 @@
         "FIELD_OPTION_BACKSPACE_8"     : "Backspace (Ctrl-H)",
         "FIELD_OPTION_BACKSPACE_127"   : "Delete (Ctrl-?)",
 
-        "FIELD_OPTION_COLOR_SCHEME_BLACK_WHITE" : "흰 바탕에 검정색",
+        "FIELD_OPTION_COLOR_SCHEME_BLACK_WHITE" : "흰색 바탕에 검정색",
         "FIELD_OPTION_COLOR_SCHEME_EMPTY"       : "",
         "FIELD_OPTION_COLOR_SCHEME_GRAY_BLACK"  : "검정 바탕에 회색",
         "FIELD_OPTION_COLOR_SCHEME_GREEN_BLACK" : "검정 바탕에 녹색",
