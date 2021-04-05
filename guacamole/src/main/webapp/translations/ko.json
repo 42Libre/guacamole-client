@@ -105,7 +105,7 @@
         "ERROR_UPLOAD_205"     : "The destination for the file transfer is currently locked. Please wait for any in-progress tasks to complete and try again.",
         "ERROR_UPLOAD_301"     : "You do not have permission to upload this file because you are not logged in. Please log in and try again.",
         "ERROR_UPLOAD_303"     : "You do not have permission to upload this file. If you require access, please check your system settings, or check with your system administrator.",
-        "ERROR_UPLOAD_308"     : "The file transfer has stalled. This is commonly caused by network problems, such as spotty wireless signal, or simply very slow network speeds. 네트워크 상태를 확인 후에 다시 시도 하십시오.",
+        "The file transfer has stalled. This is commonly caused by network problems, such as spotty wireless signal, or simply very slow network speeds. Please check your network and try again.",
         "ERROR_UPLOAD_31D"     : "Too many files are currently being transferred. Please wait for existing transfers to complete, and then try again.",
         "ERROR_UPLOAD_DEFAULT" : "Guacamole 서버 내에서 내부 오류가 발생해서 연결이 종료되었습니다. 문제가 지속되면, 시스템 관리자에게 문의하거나 시스템 로그를 확인하십시오.",
 
