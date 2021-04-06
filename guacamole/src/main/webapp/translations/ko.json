@@ -156,15 +156,9 @@
     "COLOR_SCHEME" : {
 
         "ACTION_CANCEL"       : "@:APP.ACTION_CANCEL",
-<<<<<<< HEAD
-        "ACTION_HIDE_DETAILS" : "Hide",
-        "ACTION_SAVE"         : "@:APP.ACTION_SAVE",
-        "ACTION_SHOW_DETAILS" : "Show",
-=======
         "ACTION_HIDE_DETAILS" : "숨기기",
-        "ACTION_SAVE"         : "@:APP.sdsdfsdfACTION_SAVE",
+        "ACTION_SAVE"         : "@:APP.ACTION_SAVE",
         "ACTION_SHOW_DETAILS" : "표시",
->>>>>>> 7b11b76c5 (Translate few lines.)
 
         "FIELD_HEADER_BACKGROUND" : "Background",
         "FIELD_HEADER_FOREGROUND" : "Foreground",
