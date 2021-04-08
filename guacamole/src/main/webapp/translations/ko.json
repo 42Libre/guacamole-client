@@ -118,7 +118,7 @@
         "HELP_MOUSE_MODE"          : "터치와 관련하여 원격 마우스가 어떻게 동작하는지 결정합니다.",
         "HELP_MOUSE_MODE_ABSOLUTE" : "탭하여 클릭합니다. 클릭은 터치 위치에서 발생합니다.",
         "HELP_MOUSE_MODE_RELATIVE" : "드래그하여 마우스 포인터를 움직이고 탭하여 클릭합니다. 클릭은 마우스 포인터 위치에서 발생합니다.",
-        "HELP_SHARE_LINK"          : "현재 연결이 동유되고 있으며, 다음 {LINKS, plural, one{link} other{links}} 를 가진 사람이라면 누구나 접근할 수 있습니다.:",
+        "HELP_SHARE_LINK"          : "현재 연결이 동유되고 있으며, 다음 링크를 가진 사람이라면 누구나 접근할 수 있습니다.:",
 
         "INFO_CONNECTION_SHARED" : "이 연결은 이제 공유됩니다.",
         "INFO_NO_FILE_TRANSFERS" : "파일 전송이 없습니다.",
