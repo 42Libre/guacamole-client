@@ -146,7 +146,7 @@
         "TEXT_CLIENT_STATUS_DISCONNECTED" : "연결이 끊어졌습니다.",
         "TEXT_CLIENT_STATUS_UNSTABLE"     : "Guacamole 서버에 대한 네트워크 연결이 불안정합니다.",
         "TEXT_CLIENT_STATUS_WAITING"      : "Guacamole에 연결됐습니다. 응답을 기다리는 중...",
-        "TEXT_RECONNECT_COUNTDOWN"        : "재접속하는 중 {REMAINING} {REMAINING, plural, one{second} other{seconds}}...",
+        "TEXT_RECONNECT_COUNTDOWN"        : "재접속하는 중 {REMAINING}초...",
         "TEXT_FILE_TRANSFER_PROGRESS"     : "{PROGRESS} {UNIT, select, b{B} kb{KB} mb{MB} gb{GB} other{}}",
 
         "URL_OSK_LAYOUT" : "layouts/en-us-qwerty.json"
