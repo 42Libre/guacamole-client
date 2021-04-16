@@ -32,7 +32,6 @@
 
         "DIALOG_HEADER_ERROR" : "에러",
 
-
         "ERROR_PAGE_UNAVAILABLE"  : "에러가 발생해 동작이 완료될 수 없습니다. 문제가 계속되면, 시스템 관리자에게 문의하거나 시스템 로그를 확인하십시오.",
         "ERROR_PASSWORD_BLANK"    : "패스워드는 공백이 될 수 없습니다.",
         "ERROR_PASSWORD_MISMATCH" : "패스워드가 일치하지 않습니다.",
@@ -326,7 +325,7 @@
 
         "FIELD_PLACEHOLDER_FILTER" : "@:APP.FIELD_PLACEHOLDER_FILTER",
 
-        "HELP_NO_USER_GROUPS": "이 사용자는 현재 어떤 그룹에도 속하지 않습니다. 그룹을 추가하려면이 섹션을 확장하십시오.",
+        "HELP_NO_USER_GROUPS" : "이 사용자는 현재 어떤 그룹에도 속하지 않습니다. 그룹을 추가하려면이 섹션을 확장하십시오.",
 
         "INFO_READ_ONLY"                : "죄송합니다.이 사용자 계정은 수정할 수 없습니다.",
         "INFO_NO_USER_GROUPS_AVAILABLE" : "사용 가능한 그룹이 없습니다.",
@@ -387,27 +386,27 @@
 
     "PROTOCOL_KUBERNETES" : {
 
-        "FIELD_HEADER_BACKSPACE"      : "Backspace 키 전송:",
+        "FIELD_HEADER_BACKSPACE"       : "Backspace 키 전송:",
         "FIELD_HEADER_CA_CERT"         : "인증 기관 인증서:",
         "FIELD_HEADER_CLIENT_CERT"     : "클라이언트 인증서:",
         "FIELD_HEADER_CLIENT_KEY"      : "클라이언트 키:",
         "FIELD_HEADER_COLOR_SCHEME"    : "색상 구성표:",
-        "FIELD_HEADER_CONTAINER": "컨테이너 이름 :",
-        "FIELD_HEADER_CREATE_RECORDING_PATH": "자동으로 레코딩 경로 생성 :",
-        "FIELD_HEADER_CREATE_TYPESCRIPT_PATH": "자동으로 typescript 경로 생성 :",
-        "FIELD_HEADER_FONT_NAME": "글꼴 이름 :",
-        "FIELD_HEADER_FONT_SIZE": "글꼴 크기 :",
-        "FIELD_HEADER_HOSTNAME": "호스트 이름 :",
-        "FIELD_HEADER_IGNORE_CERT": "서버 인증서 무시 :",
-        "FIELD_HEADER_NAMESPACE": "네임 스페이스 :",
+        "FIELD_HEADER_CONTAINER"       : "컨테이너 이름 :",
+        "FIELD_HEADER_CREATE_RECORDING_PATH"  : "자동으로 레코딩 경로 생성 :",
+        "FIELD_HEADER_CREATE_TYPESCRIPT_PATH" : "자동으로 typescript 경로 생성 :",
+        "FIELD_HEADER_FONT_NAME"       : "글꼴 이름 :",
+        "FIELD_HEADER_FONT_SIZE"       : "글꼴 크기 :",
+        "FIELD_HEADER_HOSTNAME"        : "호스트 이름 :",
+        "FIELD_HEADER_IGNORE_CERT"     : "서버 인증서 무시 :",
+        "FIELD_HEADER_NAMESPACE"       : "네임 스페이스 :",
         "FIELD_HEADER_POD"             : "파드 (Pod) 이름:",
-        "FIELD_HEADER_PORT"           : "포트:",
-        "FIELD_HEADER_READ_ONLY"      : "읽기 전용:",
+        "FIELD_HEADER_PORT"            : "포트:",
+        "FIELD_HEADER_READ_ONLY"       : "읽기 전용:",
         "FIELD_HEADER_RECORDING_EXCLUDE_MOUSE"  : "마우스 제외:",
         "FIELD_HEADER_RECORDING_EXCLUDE_OUTPUT" : "그래픽/스트림 제외:",
         "FIELD_HEADER_RECORDING_INCLUDE_KEYS"   : "키 이벤트 포함:",
-        "FIELD_HEADER_RECORDING_NAME" : "레코딩 이름:",
-        "FIELD_HEADER_RECORDING_PATH" : "레코딩 경로:",
+        "FIELD_HEADER_RECORDING_NAME"  : "레코딩 이름:",
+        "FIELD_HEADER_RECORDING_PATH"  : "레코딩 경로:",
         "FIELD_HEADER_SCROLLBACK"      : "스크롤 백 (scrollback) 최대 크기:",
         "FIELD_HEADER_TYPESCRIPT_NAME" : "Typescript 이름:",
         "FIELD_HEADER_TYPESCRIPT_PATH" : "Typescript 경로:",
