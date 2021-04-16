@@ -330,9 +330,9 @@
         "INFO_READ_ONLY"                : "죄송합니다.이 사용자 계정은 수정할 수 없습니다.",
         "INFO_NO_USER_GROUPS_AVAILABLE" : "사용 가능한 그룹이 없습니다.",
 
-        "SECTION_HEADER_ALL_CONNECTIONS"     : "모든 접속",
-        "SECTION_HEADER_CONNECTIONS"         : "접속",
-        "SECTION_HEADER_CURRENT_CONNECTIONS" : "현재 접속",
+        "SECTION_HEADER_ALL_CONNECTIONS"     : "모든 연결",
+        "SECTION_HEADER_CONNECTIONS"         : "연결",
+        "SECTION_HEADER_CURRENT_CONNECTIONS" : "현재 연결",
         "SECTION_HEADER_EDIT_USER"           : "사용자 편집",
         "SECTION_HEADER_PERMISSIONS"         : "권한",
         "SECTION_HEADER_USER_GROUPS"         : "그룹",
