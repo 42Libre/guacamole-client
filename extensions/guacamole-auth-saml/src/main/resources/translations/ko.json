@@ -6,7 +6,7 @@
 
     "LOGIN" : {
         "FIELD_HEADER_SAML"     : "",
-        "INFO_SAML_REDIRECT_PENDING": "잠시만 기다려주십시오. ID 제공 업체로 리디렉션 중 ..." 
+        "INFO_SAML_REDIRECT_PENDING": "잠시만 기다려주십시오. ID 제공 업체로 리디렉션 중..."
     }
 
 }

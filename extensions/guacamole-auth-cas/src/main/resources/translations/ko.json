@@ -6,7 +6,7 @@
 
     "LOGIN" : {
         "FIELD_HEADER_TICKET"        : "",
-        "INFO_CAS_REDIRECT_PENDING"  : "기다려주십시오. CAS 인증으로 리디렉션 중 ..."
+        "INFO_CAS_REDIRECT_PENDING"  : "기다려주십시오. CAS 인증으로 리디렉션 중..."
     }
 
 }

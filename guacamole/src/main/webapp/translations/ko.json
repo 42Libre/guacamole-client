@@ -94,7 +94,7 @@
         "ERROR_TUNNEL_31D"     : "개별 사용자의 동시 연결 사용 제한을 초과했기 때문에 Guacamole server가 이 연결에 대한 액세스를 거부하고 있습니다. 하나 이상의 연결을 닫고 다시 시도하십시오.",
         "ERROR_TUNNEL_DEFAULT" : "Guacamole 서버 내에서 내부 오류가 발생해서 연결이 종료되었습니다. 문제가 지속되면, 시스템 관리자에게 문의하거나 시스템 로그를 확인하십시오.",
 
-        "ERROR_UPLOAD_100"     : "파일 전송이 지원되지 않거나 활성화되지 않았습니다. 시스템 관리자에게 문의하거나 시스템 로그를 확인하십시오.", 
+        "ERROR_UPLOAD_100"     : "파일 전송이 지원되지 않거나 활성화되지 않았습니다. 시스템 관리자에게 문의하거나 시스템 로그를 확인하십시오.",
         "ERROR_UPLOAD_201"     : "현재 너무 많은 파일이 전송되고 있습니다. 기존 전송이 완료될 때까지 기다린 후 다시 시도하십시오.",
         "ERROR_UPLOAD_202"     : "원격 데스크톱 서버가 응답하는 데 너무 오래 걸리기 때문에 파일을 전송할 수 없습니다. 다시 시도하거나 시스템 관리자에게 문의하십시오.",
         "ERROR_UPLOAD_203"     : "전송하는 동안 원격 데스크톱 서버에 오류가 발생했습니다. 다시 시도하거나 시스템 관리자에게 문의하십시오.",
@@ -509,7 +509,7 @@
         "FIELD_HEADER_SFTP_DISABLE_DOWNLOAD"      : "파일 다운로드 비활성화:",
         "FIELD_HEADER_SFTP_HOST_KEY"              : "호스트 공개 키 (Base64):",
         "FIELD_HEADER_SFTP_HOSTNAME"              : "호스트 이름:",
-        "FIELD_HEADER_SFTP_SERVER_ALIVE_INTERVAL" : "SFTP keepalive 간격:",     
+        "FIELD_HEADER_SFTP_SERVER_ALIVE_INTERVAL" : "SFTP keepalive 간격:",
         "FIELD_HEADER_SFTP_PASSPHRASE"            : "암호 (Passphrase):",
         "FIELD_HEADER_SFTP_PASSWORD"              : "암호 (Password):",
         "FIELD_HEADER_SFTP_PORT"                  : "포트:",

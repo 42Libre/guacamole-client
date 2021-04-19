@@ -6,7 +6,7 @@
 
     "LOGIN" : {
         "FIELD_HEADER_ID_TOKEN" : "",
-        "INFO_OID_REDIRECT_PENDING" : "ID 제공 업체로 리디렉션 중입니다 ..."
+        "INFO_OID_REDIRECT_PENDING" : "ID 제공 업체로 리디렉션 중입니다..."
     }
 
 }
