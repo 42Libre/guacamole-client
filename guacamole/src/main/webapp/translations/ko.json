@@ -568,7 +568,7 @@
         "SECTION_HEADER_AUTHENTICATION"     : "인증",
         "SECTION_HEADER_BASIC_PARAMETERS"   : "기본 설정",
         "SECTION_HEADER_CLIPBOARD"          : "클립보드",
-        "SECTION_HEADER_DEVICE_REDIRECTION" : "디바이스 리다이렉션",
+        "SECTION_HEADER_DEVICE_REDIRECTION" : "디바이스 리디렉션",
         "SECTION_HEADER_DISPLAY"            : "디스플레이",
         "SECTION_HEADER_GATEWAY"            : "원격 데스크톱 게이트웨이",
         "SECTION_HEADER_LOAD_BALANCING"     : "부하 분산 (Load Balancing)",
