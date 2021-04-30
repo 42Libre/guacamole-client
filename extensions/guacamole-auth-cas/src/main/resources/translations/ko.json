@@ -1,7 +1,7 @@
 {
 
     "DATA_SOURCE_CAS" : {
-        "NAME" : "CAS SSO Backend"
+        "NAME" : "CAS SSO 백엔드"
     },
 
     "LOGIN" : {

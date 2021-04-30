@@ -1,7 +1,7 @@
 {
 
     "DATA_SOURCE_SAML" : {
-        "NAME" : "SAML Authentication Extension"
+        "NAME" : "SAML 인증 확장 프로그램"
     },
 
     "LOGIN" : {
