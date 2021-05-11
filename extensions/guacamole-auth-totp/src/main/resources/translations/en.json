@@ -30,7 +30,7 @@
         "SECTION_HEADER_DETAILS" : "Details:"
 
     },
-
+    
     "USER_ATTRIBUTES" : {
         
         "FIELD_HEADER_GUAC_TOTP_RESET"         : "Clear TOTP secret:",

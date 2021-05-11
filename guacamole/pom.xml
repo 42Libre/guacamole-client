@@ -30,6 +30,13 @@
     <name>guacamole</name>
     <url>http://guacamole.apache.org/</url>
 
+    <parent>
+        <groupId>org.apache.guacamole</groupId>
+        <artifactId>guacamole-client</artifactId>
+        <version>1.3.0</version>
+        <relativePath>../</relativePath>
+    </parent>
+
     <description>
         The Guacamole web application, providing authentication and an HTML5
         remote desktop client.
@@ -50,33 +57,25 @@
         <connection>scm:git:https://git.wip-us.apache.org/repos/asf/guacamole-client.git</connection>
     </scm>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
     <build>
         <plugins>
 
-            <!-- Written for Java 1.8 -->
+            <!-- Automatically generate LICENSE and NOTICE -->
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <compilerArgs>
-                        <arg>-Xlint:all</arg>
-                        <arg>-Werror</arg>
-                    </compilerArgs>
-                    <fork>true</fork>
-                </configuration>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>generate-license-files</id>
+                        <phase>generate-resources</phase>
+                    </execution>
+                </executions>
             </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>2.6</version>
+                <version>3.3.1</version>
                 <configuration>
 
                     <webResources>
@@ -93,7 +92,7 @@
 
                         <!-- Include all licenses within META-INF -->
                         <resource>
-                            <directory>src/licenses</directory>
+                            <directory>${project.build.directory}/licenses</directory>
                             <targetPath>META-INF</targetPath>
                         </resource>
 
@@ -124,7 +123,7 @@
             <plugin>
                 <groupId>com.keithbranton.mojo</groupId>
                 <artifactId>angular-maven-plugin</artifactId>
-                <version>0.3.2</version>
+                <version>0.3.4</version>
                 <executions>
                     <execution>
                         <phase>generate-resources</phase>
@@ -143,9 +142,8 @@
 
             <!-- JS/CSS Minification Plugin -->
             <plugin>
-                <groupId>com.samaxes.maven</groupId>
+                <groupId>com.github.buckelieg</groupId>
                 <artifactId>minify-maven-plugin</artifactId>
-                <version>1.7.5</version>
                 <executions>
                     <execution>
                         <id>default-cli</id>
@@ -200,33 +198,6 @@
                 </executions>
             </plugin>
 
-            <!-- Verify format using Apache RAT -->
-            <plugin>
-                <groupId>org.apache.rat</groupId>
-                <artifactId>apache-rat-plugin</artifactId>
-                <version>0.12</version>
-
-                <configuration>
-                    <excludes>
-                        <exclude>src/main/webapp/app/*/templates/*.html</exclude>
-                        <exclude>**/*.json</exclude>
-                        <exclude>src/licenses/**/*</exclude>
-                    </excludes>
-                </configuration>
-
-                <!-- Bind RAT to validate phase -->
-                <executions>
-                    <execution>
-                        <id>validate</id>
-                        <phase>validate</phase>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                    </execution>
-                </executions>
-
-            </plugin>
-
         </plugins>
     </build>
 
@@ -252,12 +223,14 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jul-to-slf4j</artifactId>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
         </dependency>
 
         <!-- Guacamole Extension API -->
@@ -435,35 +408,59 @@
         <dependency>
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
-            <version>3.0</version>
         </dependency>
         <dependency>
             <groupId>com.google.inject.extensions</groupId>
             <artifactId>guice-assistedinject</artifactId>
-            <version>3.0</version>
         </dependency>
-        
-        <!-- Guice Servlet -->
         <dependency>
             <groupId>com.google.inject.extensions</groupId>
             <artifactId>guice-servlet</artifactId>
-            <version>3.0</version>
         </dependency>
         
         <!-- Jersey - JAX-RS Implementation -->
         <dependency>
-            <groupId>com.sun.jersey</groupId>
-            <artifactId>jersey-server</artifactId>
-            <version>1.17.1</version>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.inject</groupId>
+            <artifactId>jersey-hk2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.hk2</groupId>
+            <artifactId>guice-bridge</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-jackson</artifactId>
+            <exclusions>
+
+                <!-- Use newer 2.12.2 version required by Guacamole, rather
+                than 2.11.3 version required by Jersey (see below) -->
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.module</groupId>
+                    <artifactId>jackson-module-jaxb-annotations</artifactId>
+                </exclusion>
+
+            </exclusions>
         </dependency>
 
-        <!-- Jersey - Guice extension -->
+        <!-- Force newer version of Jackson, rather than slightly older version
+            specified by Jersey -->
         <dependency>
-            <groupId>com.sun.jersey.contribs</groupId>
-            <artifactId>jersey-guice</artifactId>
-            <version>1.17.1</version>
-        </dependency> 
-        
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-jaxb-annotations</artifactId>
+        </dependency>
+
         <!-- JSR-250 annotations -->
         <dependency>
             <groupId>javax.annotation</groupId>
@@ -471,27 +468,10 @@
             <version>1.0</version>
         </dependency>
         
-        <!-- Jackson for JSON support -->
-        <dependency>
-            <groupId>com.sun.jersey</groupId>
-            <artifactId>jersey-json</artifactId>
-            <version>1.17.1</version>
-
-            <!-- Exclude StAX API, which is part of Java 6 -->
-            <exclusions>
-                <exclusion>
-                    <groupId>javax.xml.stream</groupId>
-                    <artifactId>stax-api</artifactId>
-                </exclusion>
-            </exclusions>
-
-        </dependency>
-        
         <!-- Guava Base Libraries -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>27.0.1-jre</version>
         </dependency>
 
         <!-- JSTZ for TimeZone Detection -->

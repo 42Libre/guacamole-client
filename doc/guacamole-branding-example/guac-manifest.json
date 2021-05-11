@@ -30,6 +30,5 @@
     
     "translations" : [
         "translations/en.json"
-        "translations/ko.json"
     ]
 }
